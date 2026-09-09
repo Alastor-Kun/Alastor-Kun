@@ -4,7 +4,7 @@
 
 ### Estudante de Engenharia da Computação 
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=B026FF&center=true&vCenter=true&width=500&lines=Engenharia+da+Computa%C3%A7%C3%A3o;C+%2B+Python+%2B+ESP32;Sistemas+Embarcados;Explorando+o+universo+de+Kiaura+%F0%9F%92%9C" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=B026FF&center=true&vCenter=true&width=500&lines=Engenharia+da+Computa%C3%A7%C3%A3o;C+%2B+Python+%2B+ESP32;Sistemas+Embarcados;" alt="Typing SVG" />
 
 <!-- ^ Linha opcional e externa (Vercel). Se preferir zero dependências externas,
      apague este <img> e deixe só o título e o subtítulo acima. -->
