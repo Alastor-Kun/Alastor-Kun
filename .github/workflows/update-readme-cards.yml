@@ -1,1 +1,39 @@
+name: Atualizar cards do README
 
+on:
+  schedule:
+    - cron: "0 6 * * *"   # todo dia às 06:00 UTC (~02:00-03:00 em MT, dependendo do horário)
+  workflow_dispatch:        # permite rodar manualmente pela aba "Actions"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Gerar card de estatísticas
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=Alastor-Kun&show_icons=true&theme=synthwave&hide_border=true
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Gerar card de linguagens mais usadas
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=Alastor-Kun&layout=compact&theme=synthwave&hide_border=true
+          path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commitar os cards atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git commit -m "chore: atualizar cards de stats" || echo "Nada para commitar"
+          git push
