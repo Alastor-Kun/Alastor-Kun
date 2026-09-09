@@ -1,9 +1,9 @@
 name: Atualizar cards do README
 
-on:
+"on":
   schedule:
-    - cron: "0 6 * * *"   # todo dia às 06:00 UTC (~02:00-03:00 em MT, dependendo do horário)
-  workflow_dispatch:        # permite rodar manualmente pela aba "Actions"
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,6 +11,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
