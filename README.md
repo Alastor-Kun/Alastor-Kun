@@ -15,10 +15,9 @@
 
 ## 👾 Sobre mim
 
-- 🎓 Estudante de Engenharia da Computação, com foco em **sistemas embarcados**
-- 🔧 Trabalho com **C**, **Python** e microcontroladores (**ESP32**, Arduino)
-- 🌌 Interesse em hardware, firmware e a fronteira entre software e o mundo físico
-- 💜 Identidade visual do perfil inspirada na minha personagem **Kiaura**
+- 🎓 Estudante de Engenharia da Computação, com foco em **sempre aprender algo novo**
+- 🔧 Trabalho com **C**, **Python** e microcontroladores (**ESP32**)
+- 🌌 Interesse em hardware, firmware, redes, cybersecurity, IoT e a fronteira entre software e o mundo físico
 
 ---
 
@@ -55,7 +54,6 @@
 
 ## 🚀 Projetos em destaque
 
-<!-- Troque pelos seus repositórios reais -->
 - **[Nome do Projeto 1](https://github.com/Alastor-Kun/repo1)** — breve descrição do projeto
 - **[Nome do Projeto 2](https://github.com/Alastor-Kun/repo2)** — breve descrição do projeto
 
