@@ -55,7 +55,7 @@
 ## 🚀 Projetos em destaque
 
 - **[Nome do Projeto 1](https://github.com/Alastor-Kun/repo1)** — Calculador em C para Circuitos I
-- **[Nome do Projeto 2](https://github.com/Alastor-Kun/repo2)** — breve descrição do projeto
+- **[Nome do Projeto 2](https://github.com/Alastor-Kun/repo2)** — 
 
 ---
 
