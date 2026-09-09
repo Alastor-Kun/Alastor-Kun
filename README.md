@@ -37,9 +37,6 @@
 <img src="./assets/top-langs.svg" alt="Linguagens mais usadas" width="38%" />
 </div>
 
-> Esses dois SVGs são gerados automaticamente pelo workflow `update-readme-cards.yml`
-> e ficam salvos em `assets/` neste mesmo repositório — não dependem de nenhum servidor externo.
-
 ---
 
 ## 🐍 Atividade de contribuições
