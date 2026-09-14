@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Alastor-Kun
+#  Alastor-Kun
 
 ### Estudante de Engenharia da Computação 
 
